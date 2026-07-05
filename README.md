@@ -19,7 +19,7 @@ ShizukuLauncher/
 ├── Launch Shizuku.bat    ← the launcher (double-click this)
 ├── README.md             ← this file
 ├── README.txt            ← plain-text instructions
-└── platform-tools\       ← ADB binaries (from Google)
+└── platform-tools\       ← ADB binaries (bundled)
     ├── adb.exe
     ├── AdbWinApi.dll
     └── AdbWinUsbApi.dll
@@ -43,13 +43,9 @@ Settings → About phone → Tap "Build number" 7 times
 Settings → Developer options → USB debugging → ON
 ```
 
-### 4. Prepare the launcher folder
+### 4. Extract the launcher
 
-[Download the Platform Tools](https://developer.android.com/studio/releases/platform-tools) from Google, extract the ZIP, and copy these three files into the `ShizukuLauncher` folder:
-
-- `adb.exe`
-- `AdbWinApi.dll`
-- `AdbWinUsbApi.dll`
+Unzip the `ShizukuLauncher` folder anywhere on your computer. All the required ADB files are already included inside `platform-tools\`.
 
 ## How to Use
 
