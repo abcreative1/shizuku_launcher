@@ -59,7 +59,7 @@ Put the `ShizukuLauncher` folder anywhere on your computer (desktop, documents, 
 
 | Message | What to do |
 |---------|-----------|
-| `adb.exe not found` | Make sure the `platform-tools\` folder is next to the batch file, and contains `adb.exe`, `AdbWinApi.dll`, and `AdbWinUsbApi.dll`. |
+| `adb.exe not found` | Make sure the `platform-tools\` folder is in the same directory with the batch file `Launch Shizuku.bat` , and contains `adb.exe`, `AdbWinApi.dll`, and `AdbWinUsbApi.dll`. |
 | `No device detected` | Check USB cable (use a data cable, not charge-only), enable USB debugging, set USB mode to File transfer. |
 | `USB debugging not authorized` | Look at your phone for the "Allow USB debugging?" prompt and tap OK. If missing, go to Developer options → Revoke USB debugging authorizations → reconnect. |
 | `Device is offline` | Unplug and replug the USB cable. Restart your phone if it persists. |
